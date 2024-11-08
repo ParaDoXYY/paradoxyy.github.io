@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <style>
+        .fixed-size-element {
+            width: 200px;
+            height: 100px;
+            background-color: lightblue;
+        }
+    </style>
+
+     <title>注意力训练小游戏</title>
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <p id="result" class="hide">Demo Message</p>
+      <button id="start">开始游戏吧</button>
+    </div>
+    <div class="wrapper hide">
+      <div class="simon">
+        <div class="color1 color-part"></div>
+        <div class="color2 color-part"></div>
+        <div class="color3 color-part"></div>
+        <div class="color4 color-part"></div>
+        <div id="count">00</div>
+      </div>
+    </div>
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
