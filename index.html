@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- 
-    - primary meta tags
+    - primary meta tags大口号
   -->
   <title>来自星星的画语</title>
   <meta name="title" content="来自星星的画语">
@@ -32,7 +32,7 @@
   <link rel="stylesheet" href="./assets/css/main.css">
 
   <!-- 
-    - preload images
+    - preload images口号图片
   -->
   <link rel="preload" href="./assets/images/banner.jpg">
 
@@ -53,7 +53,7 @@
 
 
   <!-- 
-    - #HEADER
+    - #HEADER的各个页面跳转
   -->
 
   <header class="header" data-header>
@@ -71,16 +71,26 @@
           </li>
 
           <li class="navbar-item">
-            <a href="./service.html" class="label-lg navbar-link has-after">融合教育服务</a>
+            <a href="./portfolio.html" class="label-lg navbar-link has-after">孤独症知识库</a>
           </li>
 
           <li class="navbar-item">
-            <a href="./portfolio.html" class="label-lg navbar-link has-after">孤独症知识库</a>
+            <a href="./service.html" class="label-lg navbar-link has-after">融合教育</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="https://www.pkucarenjk.com/%e5%ad%a4%e7%8b%ac%e7%97%87%e7%9b%b8%e5%85%b3%e8%83%bd%e5%8a%9b%e6%b5%8b%e8%af%84" class="label-lg navbar-link has-after">专业能力测评</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="http://www.rongjiao.net/solution/solution119/" class="label-lg navbar-link has-after">更多服务方案</a>
           </li>
 
           <li class="navbar-item">
             <a href="./contact.html" class="label-lg navbar-link has-after">联系我们</a>
           </li>
+
+
 
         </ul>
       </nav>
@@ -102,7 +112,7 @@
     <article>
 
       <!-- 
-        - #HERO
+        - #初始口号板块
       -->
 
       <section class="section hero" aria-label="home">
@@ -116,7 +126,25 @@
               爱就是教育，没有爱就没有教育
             </p>
 
-            <a href="#" class="btn btn-primary">开始浏览</a>
+
+            <audio id="myAudio" src="./assets/images/The Way I Still Love You.mp3"></audio>
+
+            <button id="myBtn" onclick="toggleAudio()" class="btn btn-primary">开始浏览</button>
+
+            <script>
+            var audio = document.getElementById("myAudio");
+
+              function toggleAudio() {
+                if (audio.paused) {
+                  audio.play();
+                  document.getElementById("myBtn").innerHTML = "暂停浏览";
+                } else {
+                  audio.pause();
+                  document.getElementById("myBtn").innerHTML = "继续浏览";
+                }
+            }
+            </script>
+
 
           </div>
 
@@ -133,7 +161,7 @@
 
 
       <!-- 
-        - #CLIENT
+        - #五小图标
       -->
 
       <section class="client" aria-label="Trusted client">
@@ -156,7 +184,7 @@
             <li class="slider-item">
               <img src="./assets/images/client-5.svg" width="130" height="40" alt="clients" class="w-100">
             </li>
-		  
+			  
             <li class="slider-item">
               <img src="./assets/images/client-2.svg" width="130" height="40" alt="clients" class="w-100">
             </li>
@@ -168,48 +196,29 @@
 
 
 
-
-      <!-- 
-        - #ABOUT
+      <!--
+        - #初始介绍
       -->
 
       <section class="section about" aria-label="about me">
         <div class="container">
 
           <figure class="about-banner">
-            <img src="./assets/images/I1.jpg" width="640" height="320" loading="lazy"
-              alt="Annie, the blonde, dressed in a black tops with a smile on her face" class="w-100">
+            <img src="./assets/images/I1.jpg" width="630" height="AUTO" loading="lazy" style="float:left;">
           </figure>
 
           <div class="about-content">
 
-            <h2 class="title-lg">绘画疗法</h2>
+            <h2 class="title-lg">什么是自闭症谱系障碍？</h2>
 
             <p class="body-md section-text">
-              &nbsp;&nbsp;&nbsp;&nbsp;20世纪初期，绘画开始成为一种结合心理分析的艺术治疗形式。我国儿童心理绘画研究始于陈鹤琴先生的数年观察总结。儿童心理绘画作为心理健康教育的辅助手段，既可以促进健康学生的发展，又可以对改善问题学生的心理问题和行为问题有很好的辅助治疗效果。
+              &nbsp;&nbsp;&nbsp;&nbsp;自闭症谱系障碍（ASD）是一种发育迟缓，表现为他们在社交、沟通和行为方面存在着巨大缺陷和挑战。<br/>&nbsp;&nbsp;&nbsp;  两大核心障碍为：第一，社交沟通障碍；第二，兴趣或活动范围狭窄以及重复刻板行为。
+患有儿童自闭症的患儿外表通常与正常小朋友并没有什么区别，但他们的交流、互动、行为和学习方式可能与大多数人不同。这点从他们与其他小孩的交往关系特征中可以提现出来，比如宝宝缺乏表情、情绪不稳定、很少与其他人目光接触，需要爸爸妈妈更多的关注。
             </p>
 
-            <ul class="about-list">
-
-              <li>
-                <p class="list-text">
-                  <strong class="strong title-md">385+</strong> 治疗案例
-                </p>
-              </li>
-
-              <li>
-                <p class="list-text">
-                  <strong class="strong title-md">120+</strong> 康复儿童
-                </p>
-              </li>
-
-            </ul>
-
             <div class="wrapper">
-              <a href="https://www.kivicube.com/scenes/KOM1yLFv8lg3P2qtq68CJLwP5IOkpy27
-" class="btn btn-primary">IMAGE裸眼插画</a>
+              <a href="./portfolio.html" class="btn btn-primary">查看更多</a>
 
-              <a href="https://www.kivicube.com/scenes/oy5siE0F65lgo41Uz2rP13hs8fKHvWP5" class="btn btn-secondary">AR分层立体海报</a>
             </div>
 
           </div>
@@ -219,10 +228,8 @@
 
 
 
-
-
-      <!-- 
-        - #SKILL
+      <!--
+        - #融合能力干预四个板块
       -->
 
       <section class="section skill" aria-labelledby="skill-label">
@@ -231,11 +238,11 @@
           <div class="skill-content">
 
             <h3 class="section-title headline-md" id="skill-label">个性化融合能力干预</h3>
-         
+
 			  <p class="body-md section-text">
               &nbsp;&nbsp;&nbsp;&nbsp;个性化融合能力干预方案含孤独症儿童的语言训练、孤独症儿童的统感训练、孤独症儿童的注意力训练等。<br/>&nbsp;&nbsp;&nbsp;&nbsp;语言训练，帮助他们架构起未来语言能力；统感训练刺激大脑功能，促进脑神经细胞发育；注意力训练影响有注意力障碍的儿童和正常儿童的注意网络<br/>
             </p>
-			  
+
             <ul class="skill-list">
 
               <li>
@@ -303,8 +310,14 @@
 
 
 
+
+
+
+
+
+
       <!-- 
-        - #CTA
+        - #口号横幅
       -->
 
       <section class="cta">
@@ -320,7 +333,7 @@
 
 
       <!-- 
-        - #TESTIMONIALS
+        - #横向小画作
       -->
 
       <section class="section testi" aria-labelledby="testi-label">
@@ -444,9 +457,71 @@
 
 
 
+        <!--
+        - #绘画疗法
+      -->
+
+      <section class="section about" aria-label="about me">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./assets/images/ar.jpg" width="280" height="AUTO" loading="lazy" style="float:left;">
+            <img src="./assets/images/fc.jpg" width="280" height="AUTO" loading="lazy" style="float:left;">
+          </figure>
+
+          <div class="about-content">
+
+            <h2 class="title-lg">孤独症儿童面临多重困境</br>——数字化医疗或是破冰利器!</h2>
+
+            <p class="body-md section-text">
+              &nbsp;&nbsp;&nbsp;&nbsp;20世纪初期，绘画开始成为一种结合心理分析的艺术治疗形式。我国儿童心理绘画研究始于陈鹤琴先生的数年观察总结。儿童心理绘画作为心理健康教育的辅助手段，既可以促进健康学生的发展，又可以对改善问题学生的心理问题和行为问题有很好的辅助治疗效果。
+            </p>
+
+            <ul class="about-list">
+
+              <li>
+                <p class="list-text">
+                  <strong class="strong title-md">385+</strong> 治疗案例
+                </p>
+              </li>
+
+              <li>
+                <p class="list-text">
+                  <strong class="strong title-md">120+</strong> 康复儿童
+                </p>
+              </li>
+
+            </ul>
+
+            <div class="wrapper">
+              <a id="openWindowButton1" href="###" class="btn btn-primary" aria-label="More about Website Design for Marketing Agency Startup">IMAGE裸眼插画
+
+                    <script>
+                      var button = document.getElementById("openWindowButton1");
+                      button.addEventListener("click", function() {
+                        window.open("https://www.kivicube.com/scenes/KOM1yLFv8lg3P2qtq68CJLwP5IOkpy27", 'new window1', 'height=400, width=600, top=800, left=750, toolbar=no, menubar=no, scrollbars=no, resizable=no,location=no, status=no');
+                      });
+                    </script></a>
+
+              <a id="openWindowButton2" href="###" class="btn btn-secondary" aria-label="More about Website Design for Marketing Agency Startup">AR立体国风画
+                    <script>
+                      var button = document.getElementById("openWindowButton2");
+                      button.addEventListener("click", function() {
+                        window.open("https://www.kivicube.com/scenes/oy5siE0F65lgo41Uz2rP13hs8fKHvWP5", 'new window2', 'height=400, width=600, top=800, left=750, toolbar=no, menubar=no, scrollbars=no, resizable=no,location=no, status=no');
+                      });
+                    </script></a>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
 
   <!-- 
-    - #FOOTER
+    - #最下栏
   -->
 
   <footer class="footer">
@@ -455,38 +530,41 @@
       <ul class="social-list">
 
         <li>
-          <a href="#" class="social-link">
+          <a href="https://cncard.org.cn/" class="social-link">
             <ion-icon name="logo-facebook"></ion-icon>
           </a>
         </li>
 
         <li>
-          <a href="#" class="social-link">
+          <a href="https://www.pkucarenjk.com/" class="social-link">
             <ion-icon name="logo-twitter"></ion-icon>
           </a>
         </li>
 
         <li>
-          <a href="#" class="social-link">
+          <a href="https://www.asd-home.cn" class="social-link">
             <ion-icon name="logo-instagram"></ion-icon>
           </a>
         </li>
 
         <li>
-          <a href="#" class="social-link">
+          <a href="https://www.alsolife.com/" class="social-link">
             <ion-icon name="logo-linkedin"></ion-icon>
           </a>
         </li>
 
         <li>
-          <a href="#" class="social-link">
+          <a href="https://www.heephong.org/chs" class="social-link">
             <ion-icon name="logo-pinterest"></ion-icon>
           </a>
         </li>
 
       </ul>
 
-      <p class="text-center">&copy; 2024 copyright all right reserved</p>
+      <p class="client-title">地址：南京市栖霞区仙林街道文苑路9号南京邮电大学仙林校区</p>
+
+      <p class="text-center">邮箱：b21150329@njupt.edu.cn</p>
+
 
     </div>
   </footer>
