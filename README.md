@@ -1,54 +1,13 @@
-<div align="center">
+Project Brief Introduction:
+   "Drawing Language" is an innovative digital platform that aims to provide a psychological painting therapy environment for children with autism combined with AR technology, by providing a safe, intuitive and interactive space to help children with autism express themselves through painting, promote emotional development and social interaction. Our goal is to provide a more personalized and effective healing experience for children with autism through the combination of art and technology.
+Access:
+1. After the mobile terminal and PC device are connected to the network, visit the website of the "Painting Language" platform: https://paradoxyy.github.io/
+2. To access the AR function normally, you need to use a mobile device and provide camera permissions
+3. GitHub repository link
   
-  ![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/annie)
-  ![GitHub stars](https://img.shields.io/github/stars/codewithsadee/annie?style=social)
-  ![GitHub forks](https://img.shields.io/github/forks/codewithsadee/annie?style=social)
-[![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee_?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee_)
-  [![YouTube Video Views](https://img.shields.io/youtube/views/lD-hxm19ncs?style=social)](https://youtu.be/lD-hxm19ncs)
-
-  <br />
-  <br />
-
-  <h2 align="center">Annie - Personal Portfolio</h2>
-
-  Annie is a fully responsive personal portfolio, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
-
-  <a href="https://codewithsadee.github.io/annie/"><strong>➥ Live Demo</strong></a>
-
-</div>
-
-<br />
-
-### Demo Screeshots
-
-![Annie Desktop Demo](./readme-images/desktop.png "Desktop Demo")
-
-### Prerequisites
-
-Before you begin, ensure you have met the following requirements:
-
-* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
-
-### Run Locally
-
-To run **Annie** locally, run this command on your git bash:
-
-Linux and macOS:
-
-```bash
-sudo git clone https://github.com/codewithsadee/annie.git
-```
-
-Windows:
-
-```bash
-git clone https://github.com/codewithsadee/annie.git
-```
-
-### Contact
-
-If you want to contact with me you can reach me at [Twitter](https://www.twitter.com/codewithsadee).
-
-### License
-
-This project is **free to use** and does not contains any license.
+   项目简介：
+   “画语”是一个创新的数字平台，旨在为孤独症儿童提供一个结合AR技术的心理绘画疗愈环境，通过提供一个安全、直观且互动的空间，帮助孤独症儿童通过绘画表达自我，促进情感发展和社交互动。我们的目标是通过艺术和科技的结合，为孤独症儿童提供一个更加个性化和有效的疗愈体验。
+访问须知：
+1、移动端、pc端设备链接网络后访问《画语》平台网址：https://paradoxyy.github.io/
+2、正常访问AR功能需使用移动端设备，并且需提供摄像头权限
+3、github仓库链接
